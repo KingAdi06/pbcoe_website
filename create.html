@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Creation and Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+  </head>
+  <body>
+    <div class="account-creation-container">
+      <h2>Create Account</h2>
+      <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <label for="account-type">Account Type:</label>
+        <select id="account-type" name="account-type">
+          <option value="admin">Teacher</option>
+          <option value="user">Student</option>
+        </select>
+        <button type="submit">Create Account</button>
+      </form>
+    </div>
+</body>
+</html>
